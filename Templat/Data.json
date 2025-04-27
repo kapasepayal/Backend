@@ -1,0 +1,46 @@
+{
+    "cats": {
+      "name": "cats",
+      "followers": 25000,
+      "following": 5,
+      "posts": [
+        {
+          "image": "http://3.bp.blogspot.com/-dui-f0hQUHE/U0Qs5dOcWII/AAAAAAAACpg/S1lb9AnsMU4/s1600/loveable-cat-wallpaper-free.jpg",
+          "likes": 200,
+          "comments": 17
+        },
+        {
+          "image": "https://pixnio.com/free-images/2017/09/26/2017-09-26-07-22-55.jpg",
+          "likes": 312,
+          "comments": 19
+        },
+        {
+          "image":"https://www.rd.com/wp-content/uploads/2021/04/GettyImages-988013222-scaled-e1618857975729.jpg?w=1670",
+          "likes": 1065,
+          "comments": 200
+        }
+      ]
+    },
+    "dogs": {
+      "name": "dogs",
+      "followers": 75000,
+      "following": 150,
+      "posts": [
+        {
+          "image": "https://tse1.mm.bing.net/th?id=OIP.yuYto9g41BDnIt-LwK5N6gHaHx&pid=Api&P=0&h=180",
+        "likes": 3000,
+          "comments": 41
+        },
+        {
+          "image":"https://images7.alphacoders.com/350/350203.jpg", 
+           "likes": 2500,
+          "comments": 32
+        },
+        {
+          "image": "https://getwallpapers.com/wallpaper/full/6/1/5/959887-puppy-wallpaper-desktop-2048x1536-iphone.jpg",
+           "likes": 500,
+          "comments": 6
+        }
+      ]
+    }
+  }

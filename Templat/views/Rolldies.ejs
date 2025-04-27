@@ -1,0 +1,22 @@
+<%- include("includes/head.ejs")  %>
+<body>
+    <h3>`the number of randam experiment is <%= diceval %>`</h3>
+    <% if(diceval == 6) { %>
+
+        <h1>nice rolling !</h1>
+
+   <% } else {%>
+        <h2>ol</h2>
+   <%}%>
+   
+
+
+        <h1>Acount of following</h1>
+   <% for(num of arr) {%>
+
+        <h3><%= num %></h3>
+   <% } %>
+
+   <%- include("includes/footer.ejs")  %>
+</body>
+</html>

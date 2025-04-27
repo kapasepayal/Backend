@@ -1,0 +1,33 @@
+
+ <!-- head contain in includes folder head file  (includes/head.ejs)........> -->
+<%- include("includes/head.ejs")  %>
+
+<body>
+    
+    <h1>Acount you followe is @<%= data.name %></h1>
+    <button>follwo</button> &nbsp; &nbsp;
+    <button>Massage</button>
+   
+    <p> Follower:<%= data.followers%> &nbsp; &nbsp; &nbsp; &nbsp;
+        following: <%= data.following %>
+    </p>
+    
+    <hr>
+
+    <div class="one">
+    <% for(let post of data.posts) {%>
+      
+          <div>
+            <img src="<%= post.image %>" alt="same img">
+            
+            <p>likes:<%=post.likes%> &nspar; &nbsp;&nbsp;&nbsp;
+                comments: <%= post.comments  %>
+            </p>
+          </div>
+          <% } %>
+        </div>
+
+        <%- include("includes/footer.ejs")  %>
+    </body>
+    <script src="/app.js"></script>
+</html>
