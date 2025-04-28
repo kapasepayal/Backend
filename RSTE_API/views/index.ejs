@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POST</title>
+    <link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    
+    <h1>Qoura Poste</h1>
+    <% for(info of post) {%>
+
+        <div>
+            <h4 class="uesrname"><%=info.username  %></h4>
+            <p class="content"><%= info.content  %></p>
+        </div>
+    <% } %>
+</body>
+</html>
+

@@ -1,0 +1,13 @@
+
+h1{
+    color: rgb(176, 19, 19);
+}
+
+div{
+    background-color: aqua;
+    width: 42rem;
+}
+
+.username{
+    font-style: italic;
+}
