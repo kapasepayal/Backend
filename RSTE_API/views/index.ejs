@@ -14,8 +14,17 @@
         <div>
             <h4 class="uesrname"><%=info.username  %></h4>
             <p class="content"><%= info.content  %></p>
+            <a href="http://localhost:3000/post/<%= info.id %>">view</a>
+            <a href="http://localhost:3000/post/<%= info.id %>/edit">edit</a><br><br>
+
+            <form method="post" action="/post/<%= info.id%>?_method=DELETE">
+                <button>Detel</button>
+            </form>
         </div>
     <% } %>
+
+    <a href="http://localhost:3000/post/new">Add new post</a>
+    
 </body>
 </html>
 
